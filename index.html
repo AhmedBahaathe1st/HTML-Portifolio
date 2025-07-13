@@ -2,37 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- boostrap end-->
+     <!--style-->
+    <link rel="stylesheet" href="style.css">
+    <!--style end-->
+    <!--fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <!--fonts end-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
 </head>
-<body>
-    <H1>Ahmed Bahaa</H1>
-    <img src="photo_2025-04-24_21-07-08.jpg" width="100px" alt="My Picture">
+<body class="my-5 text-center">
+    <div class="container grid1 text-center gradient py-3">
+        <H1>Ahmed Bahaa</H1>
+        <div class="container MyImgContainer SpanRow">
+            <img  src="photo_2025-04-24_21-07-08.jpg" width="100%" alt="My Picture">
+        </div>
+        <p>I am a computer engineering graduate looking for a position as a web programmer for the time being, 
+        I am social, cooperative and versatile</p>
+    </div>
+    
+    
     <hr>
-    <h2>Summary</h2>
-    <p>I am a computer engineering graduate looking for a position as a web programmer for the time being, I am social, cooperative and versatile</p>
+    
+    <div class="container Title my-4"><h2>My Experience</h2></div>
+    <div class="container grid2">
+        <h2>Currency Exchange Company Employee</h2>
+        <br>
+        <h2>Intermediate Web developer</h2>
+        <h2>Made a Flutter app for graduation</h2>
+        <br>
+        <h2>Took a graphic design course in MakersIQ</h2>
+        <br>
+        <h2>UOT computer engineering graduate</h2>
+    </div>
     <hr>
-    <h2>Education</h2>
-    <ul>
-        <li>I am a computer engineering graduate and i also took courses in graphic design and full stack development</li>
-    </ul>
-    <hr>
-    <h2>Work Experience</h2>
-    <ul>
-        <li>Branch manager at al-qareb exchange</li>
-        <ul>
-            <li>Helped employees resolve issues relating to thei work stations</li>
-            <li>dealt with writing some exec documents for higher ups</li>
-            <li>dealt with opening the company until upper management showed up</li>
-        </ul>
-    </ul>
-    <hr>
-    <h2>Skills</h2>
-    <ul>
-        <li>Intermediate skills in HTML,CSS,JS and Node.js</li>
-        <li>Intermediate skills in photoshop and premiere pro</li>
-    </ul>
-    <hr>
-    <a href="contact me.html">contact me</a>
+    <div class="container grid3">
+        <div class="  ImgContainer SpanRow">
+            <img class="AboutMeImg" src="guy_on_puter.jpg" alt="">
+            
+        </div>
+        <h2 class="AboutMeText">I love most things computer related</h2>
+        <p class="AboutMeText">I have been into computers ever since I was around 14, and have been learning more 
+            about them since then and would like a career in the field</p>
+    </div>
+    <div class="container grid3 my-4">
+        <div class="  ImgContainer SpanRow">
+            <img class="AboutMeImg" src="start_line.jpg" alt="">
+            </div>
+            <h2 class="AboutMeText">I have never had a programming job before... but</h2>   
+            <p class="AboutMeText">It’s never too late to start somewhere and everyone has to start at some point or other</p>
+    </div>
+   
+    
+    
 </body>
+    <footer>
+    <a href="contact me.html">contact me</a>
+   </footer>
 </html>

@@ -1,0 +1,81 @@
+body{
+    background-color: #333446;
+    color: white;
+    min-width: 100vh;
+    height:100vh
+
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+.SpanRow{
+    grid-row: span 2;
+}
+.MyImgContainer{
+    width: 50%;
+    overflow:hidden
+}
+p{
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+}
+.gradient{
+     background-image: linear-gradient(to right,#333446,black );
+}
+h2{
+    font-family:  "DM Serif Text", serif;
+    font-size: 40px;
+}
+h1{
+    font-family:  "DM Serif Text", serif;
+    font-size: 60px;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 50px;
+    box-shadow: 0px 5px 2px black;
+    max-width: 500px;
+    background-color: #7f8caa;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid2 {
+    margin-top: 10px;
+}
+.AboutMeImg{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: grid;
+    height: 100%;
+    
+}
+.grid3{
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.AboutMeText{
+    display: grid;
+    justify-self:start;
+    text-align: left ;
+}
+footer{
+    height: 30vh;
+    background-color: black;
+    width: 100%;
+    
+}
